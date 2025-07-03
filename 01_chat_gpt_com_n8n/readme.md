@@ -13,11 +13,11 @@ Não é uma automação tradicional. Vai além de regras fixas.
 
 Um agente de IA pode:
 
-Raciocinar
+* Raciocinar
 
-Planejar
+* Planejar
 
-Agir com base no contexto
+* Agir com base no contexto
 
 Componentes principais:
 
@@ -31,17 +31,18 @@ Componentes principais:
 
 Antes de começar, responda essas perguntas:
 
-Qual o papel do agente?
+* Qual o papel do agente?
 
-Que tarefa ele precisa resolver?
+* Que tarefa ele precisa resolver?
 
-Quais dados ele vai acessar?
+* Quais dados ele vai acessar?
 
-Quais ferramentas ele vai usar?
+* Quais ferramentas ele vai usar?
 
-Como será o formato da resposta?
+* Como será o formato da resposta?
 
 Nosso exemplo será:
+
 Um assistente de contas que recebe mensagens como “Gastei 50 reais com pizza ontem” e salva esses dados em uma planilha — inclusive fazendo a conversão se o valor estiver em Bitcoin.
 
 ## 3. Crie o fluxo no n8n
@@ -81,13 +82,12 @@ Você escreve: “Estou muito feliz com o atendimento.”
 
 Ele responde:
 
+```bash
 {
-
 "sentiment": "positive",
-
 "confidence": 0.93
-
 }
+```
 
 Muito usado para analisar feedbacks de clientes, e-mails ou interações em redes sociais.
 
@@ -111,11 +111,11 @@ Mas AI Agent é o mais poderoso, pois permite planejar e usar ferramentas autôn
 
 Mostre que o n8n aceita vários modelos:
 
-OpenAI (ChatGPT, GPT-4o, etc)
+* OpenAI (ChatGPT, GPT-4o, etc)
 
-Groq
+* Groq
 
-Ollama (para rodar no seu computador)
+* Ollama (para rodar no seu computador)
 
 Vamos criar as conexões: com a OpenA.
 
