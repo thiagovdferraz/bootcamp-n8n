@@ -1,3 +1,7 @@
+# Modelo que será criado
+
+![Automação envio de email com anexo](./automacao_envio_email.png)
+
 # ✅ Checklist para conectar APIs do Google no n8n
 
 Se você quer usar **Google Drive, Gmail, Google Sheets, Docs, Calendar ou Slides** dentro do **n8n** (especialmente se está na trilha de automações da Jornada), precisa seguir esse passo a passo.
