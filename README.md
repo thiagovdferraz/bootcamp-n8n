@@ -12,3 +12,4 @@ Pressupõe que tenhamos o n8n cloud configurado ou n8n via docker.
 * Configuração do N8N cloud e deploy
 * Integração com Google: gmail, calendar e sheets
 * AI Agente do n8n com Chat GPT
+* Integração N8N com Whatsapp
